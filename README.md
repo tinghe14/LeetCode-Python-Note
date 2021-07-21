@@ -3,12 +3,12 @@ LeetCode practice using python. This repository contains 1) my learning note 2) 
 
 # Learning Note
 **Tag: Arrays**
-- [Arrays 101 Note]()
+- [Arrays 101 Note](https://github.com/tinghe14/LeetCode-Python-Note/blob/main/array_101_note.md)
 
 # Problem List
 **Tag**
 
-# Task
+# TaskCancel changes
 - [X] July 2021 - basic data stucture lessions
 - [X] August 2021 - 100 questions
 - [X] September 2021 - 50 questions
