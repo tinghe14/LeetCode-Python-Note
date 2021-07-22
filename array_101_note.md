@@ -39,9 +39,54 @@ public class DVD {
     }
 }
 ```
-## Accessing elements in arrays
+## Array capacity VS Length
+1. Capacity: number of DVDs the box could hold, if it was full
+2. Length: number of DVDs currently in the box 
+Trying to put an element beyonds its capacity will cause your code to crash with an ```
+ArrayIndexOutOfBoundsException``` Array's capacity must be decided when array is created. Then capacity
+can't be changed later. 
+```java
+// Create a new array with a capacity of 6.
+int[] array = new int[6];
 
+// Current length is 0, because it has 0 elements.
+int length = 0;
 
+// Add 3 items into it.
+for (int i = 0; i < 3; i++) {
+    array[i] = i * i;
+    // Each time we add an element, the length goes up by one.
+    length++;
+}
+
+System.out.println("The Array has a capacity of " + array.length);
+System.out.println("The Array has a length of " + length);
+```
+output will be like:
+```The Array has a capacity of 6. The Array has a length of 3```
+
+Exerciese 1: Given a binary array nums, return the maximum number of consecutive 1's in the array.(solution in python)
+```python
+class Solution(object):
+    def findMaxConsecutiveOnes(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        max_result = 0
+        temp = 0
+        for i in nums:
+            if i == 1:
+                temp = temp + 1 
+            else:
+                if temp > max_result:
+                    max_result = temp
+                temp = 0
+        if temp > max_result:
+            max_result = temp
+                
+        return max_result
+```
 # Inserting Items Into an Array
 
 # Deleting Items From an Array
@@ -54,3 +99,4 @@ public class DVD {
 
 # English Note
 - being a guru with something: 领导，指导，完全理解
+- consecutive 连续的
