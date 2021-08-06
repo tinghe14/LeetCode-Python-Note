@@ -5,6 +5,9 @@ LeetCode practice using python. This repository contains 1) my learning note 2) 
 **Tag: Arrays**
 - [Arrays 101 Note](https://github.com/tinghe14/LeetCode-Python-Note/blob/main/array_101_note.md)
 
+**Book**
+- [Leetcode 101 Note](https://github.com/tinghe14/STUDY-LeetCode-Python-Note/blob/main/book_leetcode_101.md)
+
 # Problem List
 **Tag**
 
