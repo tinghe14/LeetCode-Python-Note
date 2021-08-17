@@ -60,5 +60,9 @@
 [88](https://github.com/tinghe14/STUDY-LeetCode-Python-Note/blob/main/Book_Leetcode_101/Pic/%E7%AC%AC%E4%B8%89%E7%AB%A0/88.png)
 link: https://www.youtube.com/watch?v=ANUDq_2Bs04
 4. 142 linked list cycle II (medium)
+[142](https://github.com/tinghe14/STUDY-LeetCode-Python-Note/blob/main/Book_Leetcode_101/Pic/%E7%AC%AC%E4%B8%89%E7%AB%A0/142.png)
 link: https://www.youtube.com/watch?v=9SD2ccDW5CY
+5. 76 minimum window substring (hard)
+??
+link: https://www.youtube.com/watch?v=CX6_L9GLldU
 ---
