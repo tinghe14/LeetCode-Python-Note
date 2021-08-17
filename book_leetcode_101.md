@@ -57,7 +57,7 @@
     + 若两个指针指向同一个数组，遍历方向想法，则可以用来进行搜索，待搜索的数组往往是排好序的
 2. 167 two sum II - input array is sorted (easy)
 3. 88 merge sorted array (easy)
-4. ！[88](https://github.com/tinghe14/STUDY-LeetCode-Python-Note/blob/main/Book_Leetcode_101/Pic/%E7%AC%AC%E4%B8%89%E7%AB%A0/88.png)
+[88](https://github.com/tinghe14/STUDY-LeetCode-Python-Note/blob/main/Book_Leetcode_101/Pic/%E7%AC%AC%E4%B8%89%E7%AB%A0/88.png)
 link: https://www.youtube.com/watch?v=ANUDq_2Bs04
 
 ---
