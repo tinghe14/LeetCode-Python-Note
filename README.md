@@ -17,4 +17,5 @@ LeetCode practice using python. This repository contains 1) my learning note 2) 
 - [X] September 2021 - 50 questions
 
 # Journal 
-- starting from 07 21, 2021 during first year PhD summer vocation, aim to find a data scientist summer intern in 2nd year and in the end find a machine learning engineer or NLP engineer position
+- starting from 07 21, 2021 during first year PhD summer vocation, aim to find a data scientist summer intern in 2nd year and in the end find a machine learning engineer or NLP engineer position.
+- begining at 08 31, 2021 starting my 2nd year PhD, learning the Java from homewood campus.
