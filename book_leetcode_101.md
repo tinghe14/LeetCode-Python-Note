@@ -54,7 +54,7 @@
 0. 第三章 玩转双指针
 1. 算法解释：双指针主要用于遍历数组，两个指针指向不同元素，从而协同完成任务。也可以延伸到多个数组的多个指针。
     + 若两个指针指向同一个数组，遍历方向相同且不会相交，则也称为滑动窗口，经常用于区间搜索
-    + 若两个指针指向同一个数组，遍历方向想法，则可以用来进行搜索，待搜索的数组往往是排好序的
+    + 若两个指针指向同一个数组，遍历方向相反，则可以用来进行搜索，待搜索的数组往往是排好序的
 2. 167 two sum II - input array is sorted (easy)
 3. 88 merge sorted array (easy)
 [88](https://github.com/tinghe14/STUDY-LeetCode-Python-Note/blob/main/Book_Leetcode_101/Pic/%E7%AC%AC%E4%B8%89%E7%AB%A0/88.png)
@@ -65,4 +65,14 @@ link: https://www.youtube.com/watch?v=9SD2ccDW5CY
 5. 76 minimum window substring (hard)
 ??
 link: https://www.youtube.com/watch?v=CX6_L9GLldU
+
 ---
+
+<b>Sept 1, 2021</b>
+
+0.第四章 居合斩！二分查找
+1.算法解释： 二分查找也称为二分法，每次查找十将带查找区间分成两部分并只取一部分继续查找，将查找的复杂度大大减少。对于长度为o(n)的数组，二分查找的时间复杂度为o(logn)。比如，给定排序好的数组{3,4,5,6,7}，我们想查找4在不在这个数组内，第一次折半时考虑中位数5，以为5大于4，如果4在这个数组中，那么一定在5的左边，于是我们的查找区间变成[3,4,5]...以此，我们只进行了2次查找，如果是便利数组，最坏的情况则需要查找5次。
+2. 69 Sqrt(x) (easy) solution: book p15/143 corner case?sqrt? 如何移动？牛顿迭代法？
+3. 34 find first and last position of element in sorted array (medium) 
+link: https://goodtecher.com/leetcode-34-find-first-and-last-position-of-element-in-sorted-array/
+4. 81 search in rotated sorted array II (medium) 即使数组被旋转过，我们仍然可以利用这个数组的递增性，使用二分查找。对于当前的中点，如果它指向的值小于等于右端，那么说明右区间是排好序的；反之，那么说明左区间是排好序的。如果目标值位于排好序的区间内，我们可以对这个区间继续二分查找。
