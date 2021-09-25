@@ -8,6 +8,9 @@ LeetCode practice using python. This repository contains 1) my learning note 2) 
 **Book**
 - [Leetcode 101 Note](https://github.com/tinghe14/STUDY-LeetCode-Python-Note/blob/main/book_leetcode_101.md)
 
+**Perpare**
+- [take home challenge](https://github.com/tinghe14/STUDY-LeetCode-Python-Note/blob/main/IBM_OA_prepare_0925.ipynb)
+
 # Problem List
 **Tag**
 
